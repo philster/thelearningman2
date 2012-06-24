@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A337CD15968CE10044035F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A337CC15968CE10044035F /* UIKit.framework */; };
+		22A337CF15968CE10044035F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A337CE15968CE10044035F /* Foundation.framework */; };
+		22A337D115968CE10044035F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A337D015968CE10044035F /* CoreGraphics.framework */; };
+		22A337D715968CE10044035F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A337D515968CE10044035F /* InfoPlist.strings */; };
+		22A337D915968CE10044035F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A337D815968CE10044035F /* main.m */; };
+		22A337DD15968CE10044035F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A337DC15968CE10044035F /* AppDelegate.m */; };
+		22A337E015968CE10044035F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A337DE15968CE10044035F /* MainStoryboard.storyboard */; };
+		22A337E315968CE10044035F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A337E215968CE10044035F /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22A337C815968CE10044035F /* MyPearson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPearson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A337CC15968CE10044035F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22A337CE15968CE10044035F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22A337D015968CE10044035F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22A337D415968CE10044035F /* MyPearson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPearson-Info.plist"; sourceTree = "<group>"; };
+		22A337D615968CE10044035F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22A337D815968CE10044035F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22A337DA15968CE10044035F /* MyPearson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPearson-Prefix.pch"; sourceTree = "<group>"; };
+		22A337DB15968CE10044035F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22A337DC15968CE10044035F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22A337DF15968CE10044035F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22A337E115968CE10044035F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22A337E215968CE10044035F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A337C515968CE10044035F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A337CD15968CE10044035F /* UIKit.framework in Frameworks */,
+				22A337CF15968CE10044035F /* Foundation.framework in Frameworks */,
+				22A337D115968CE10044035F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A337BD15968CE10044035F = {
+			isa = PBXGroup;
+			children = (
+				22A337D215968CE10044035F /* MyPearson */,
+				22A337CB15968CE10044035F /* Frameworks */,
+				22A337C915968CE10044035F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A337C915968CE10044035F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A337C815968CE10044035F /* MyPearson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A337CB15968CE10044035F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A337CC15968CE10044035F /* UIKit.framework */,
+				22A337CE15968CE10044035F /* Foundation.framework */,
+				22A337D015968CE10044035F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22A337D215968CE10044035F /* MyPearson */ = {
+			isa = PBXGroup;
+			children = (
+				22A337DB15968CE10044035F /* AppDelegate.h */,
+				22A337DC15968CE10044035F /* AppDelegate.m */,
+				22A337DE15968CE10044035F /* MainStoryboard.storyboard */,
+				22A337E115968CE10044035F /* ViewController.h */,
+				22A337E215968CE10044035F /* ViewController.m */,
+				22A337D315968CE10044035F /* Supporting Files */,
+			);
+			path = MyPearson;
+			sourceTree = "<group>";
+		};
+		22A337D315968CE10044035F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A337D415968CE10044035F /* MyPearson-Info.plist */,
+				22A337D515968CE10044035F /* InfoPlist.strings */,
+				22A337D815968CE10044035F /* main.m */,
+				22A337DA15968CE10044035F /* MyPearson-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A337C715968CE10044035F /* MyPearson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A337E615968CE10044035F /* Build configuration list for PBXNativeTarget "MyPearson" */;
+			buildPhases = (
+				22A337C415968CE10044035F /* Sources */,
+				22A337C515968CE10044035F /* Frameworks */,
+				22A337C615968CE10044035F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPearson;
+			productName = MyPearson;
+			productReference = 22A337C815968CE10044035F /* MyPearson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A337BF15968CE10044035F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 22A337C215968CE10044035F /* Build configuration list for PBXProject "MyPearson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22A337BD15968CE10044035F;
+			productRefGroup = 22A337C915968CE10044035F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A337C715968CE10044035F /* MyPearson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A337C615968CE10044035F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A337D715968CE10044035F /* InfoPlist.strings in Resources */,
+				22A337E015968CE10044035F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A337C415968CE10044035F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A337D915968CE10044035F /* main.m in Sources */,
+				22A337DD15968CE10044035F /* AppDelegate.m in Sources */,
+				22A337E315968CE10044035F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22A337D515968CE10044035F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A337D615968CE10044035F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22A337DE15968CE10044035F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A337DF15968CE10044035F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A337E415968CE10044035F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22A337E515968CE10044035F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A337E715968CE10044035F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPearson/MyPearson-Prefix.pch";
+				INFOPLIST_FILE = "MyPearson/MyPearson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22A337E815968CE10044035F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPearson/MyPearson-Prefix.pch";
+				INFOPLIST_FILE = "MyPearson/MyPearson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A337C215968CE10044035F /* Build configuration list for PBXProject "MyPearson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A337E415968CE10044035F /* Debug */,
+				22A337E515968CE10044035F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A337E615968CE10044035F /* Build configuration list for PBXNativeTarget "MyPearson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A337E715968CE10044035F /* Debug */,
+				22A337E815968CE10044035F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A337BF15968CE10044035F /* Project object */;
+}

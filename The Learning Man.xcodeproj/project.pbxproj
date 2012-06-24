@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB25DFC71583B7EB00AF371A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25DFC61583B7EB00AF371A /* UIKit.framework */; };
+		CB25DFC91583B7EB00AF371A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25DFC81583B7EB00AF371A /* Foundation.framework */; };
+		CB25DFCB1583B7EB00AF371A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25DFCA1583B7EB00AF371A /* CoreGraphics.framework */; };
+		CB25DFD11583B7EB00AF371A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB25DFCF1583B7EB00AF371A /* InfoPlist.strings */; };
+		CB25DFD31583B7EB00AF371A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25DFD21583B7EB00AF371A /* main.m */; };
+		CB25DFD71583B7EB00AF371A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25DFD61583B7EB00AF371A /* AppDelegate.m */; };
+		CB25DFE81583B7EB00AF371A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25DFE71583B7EB00AF371A /* SenTestingKit.framework */; };
+		CB25DFE91583B7EB00AF371A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25DFC61583B7EB00AF371A /* UIKit.framework */; };
+		CB25DFEA1583B7EB00AF371A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25DFC81583B7EB00AF371A /* Foundation.framework */; };
+		CB25DFF21583B7EB00AF371A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB25DFF01583B7EB00AF371A /* InfoPlist.strings */; };
+		CB25DFF51583B7EB00AF371A /* The_Learning_ManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25DFF41583B7EB00AF371A /* The_Learning_ManTests.m */; };
+		CB25E0061583BCC500AF371A /* LandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E0041583BCC500AF371A /* LandingPageViewController.m */; };
+		CB25E0071583BCC500AF371A /* LandingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB25E0051583BCC500AF371A /* LandingPageViewController.xib */; };
+		CB25E00D1583BE7300AF371A /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E00B1583BE7300AF371A /* LearnViewController.m */; };
+		CB25E00E1583BE7300AF371A /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB25E00C1583BE7300AF371A /* LearnViewController.xib */; };
+		CB25E0131583BF7400AF371A /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E0111583BF7400AF371A /* SelectionViewController.m */; };
+		CB25E0141583BF7400AF371A /* SelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB25E0121583BF7400AF371A /* SelectionViewController.xib */; };
+		CB25E0191583C74C00AF371A /* GamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E0171583C74C00AF371A /* GamePlayViewController.m */; };
+		CB25E01A1583C74C00AF371A /* GamePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB25E0181583C74C00AF371A /* GamePlayViewController.xib */; };
+		CB25E01F1583CE2200AF371A /* HintPopOverController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E01D1583CE2200AF371A /* HintPopOverController.m */; };
+		CB25E0201583CE2200AF371A /* HintPopOverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB25E01E1583CE2200AF371A /* HintPopOverController.xib */; };
+		CB25E0241583ED9C00AF371A /* AvatarSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E0221583ED9C00AF371A /* AvatarSelectionController.m */; };
+		CB25E0251583ED9C00AF371A /* AvatarSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB25E0231583ED9C00AF371A /* AvatarSelectionController.xib */; };
+		CBF3341A158402950007049D /* wordBox1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF33419158402950007049D /* wordBox1.png */; };
+		CBF3341E15840B480007049D /* TrashPopOverController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF3341C15840B470007049D /* TrashPopOverController.m */; };
+		CBF3341F15840B480007049D /* TrashPopOverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF3341D15840B480007049D /* TrashPopOverController.xib */; };
+		CBF3342815842F5F0007049D /* HangManClip1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342115842F5F0007049D /* HangManClip1.png */; };
+		CBF3342915842F5F0007049D /* HangManClip2.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342215842F5F0007049D /* HangManClip2.png */; };
+		CBF3342A15842F5F0007049D /* HangManClip3.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342315842F5F0007049D /* HangManClip3.png */; };
+		CBF3342B15842F5F0007049D /* HangManClip4.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342415842F5F0007049D /* HangManClip4.png */; };
+		CBF3342C15842F5F0007049D /* HangManIdele.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342515842F5F0007049D /* HangManIdele.png */; };
+		CBF3342D15842F5F0007049D /* HangManShirt.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342615842F5F0007049D /* HangManShirt.png */; };
+		CBF3342E15842F5F0007049D /* Shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3342715842F5F0007049D /* Shirt.png */; };
+		CBF3346415842FCF0007049D /* bravoScreenBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343015842FCC0007049D /* bravoScreenBackground1.png */; };
+		CBF3346515842FCF0007049D /* bravoScreenBalloons1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343115842FCC0007049D /* bravoScreenBalloons1.png */; };
+		CBF3346615842FCF0007049D /* bravoScreenBravoText1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343215842FCC0007049D /* bravoScreenBravoText1.png */; };
+		CBF3346715842FCF0007049D /* bravoScreenCharacter1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343315842FCC0007049D /* bravoScreenCharacter1.png */; };
+		CBF3346815842FCF0007049D /* bravoScreenLearnButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343415842FCC0007049D /* bravoScreenLearnButton1.png */; };
+		CBF3346915842FCF0007049D /* bravoScreenLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343515842FCC0007049D /* bravoScreenLogo1.png */; };
+		CBF3346A15842FCF0007049D /* bravoScreenNextButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343615842FCC0007049D /* bravoScreenNextButton1.png */; };
+		CBF3346B15842FCF0007049D /* dictionaryPageBackButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343815842FCC0007049D /* dictionaryPageBackButton1.png */; };
+		CBF3346C15842FCF0007049D /* dictionaryPageBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343915842FCC0007049D /* dictionaryPageBackground1.png */; };
+		CBF3346D15842FCF0007049D /* dictionaryPageLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343A15842FCC0007049D /* dictionaryPageLogo1.png */; };
+		CBF3346E15842FCF0007049D /* dictionaryPageWordBox1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343B15842FCC0007049D /* dictionaryPageWordBox1.png */; };
+		CBF3346F15842FCF0007049D /* dictionaryPageWordListLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343C15842FCC0007049D /* dictionaryPageWordListLogo1.png */; };
+		CBF3347015842FCF0007049D /* difficultySelectPageBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343E15842FCD0007049D /* difficultySelectPageBackground1.png */; };
+		CBF3347115842FCF0007049D /* difficultySelectPageLearnButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3343F15842FCD0007049D /* difficultySelectPageLearnButton1.png */; };
+		CBF3347215842FCF0007049D /* difficultySelectPageLevel1Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344015842FCD0007049D /* difficultySelectPageLevel1Button1.png */; };
+		CBF3347315842FCF0007049D /* difficultySelectPageLevel2Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344115842FCD0007049D /* difficultySelectPageLevel2Button1.png */; };
+		CBF3347415842FCF0007049D /* difficultySelectPageLevel3Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344215842FCD0007049D /* difficultySelectPageLevel3Button1.png */; };
+		CBF3347515842FCF0007049D /* difficultySelectPageLevelButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344315842FCD0007049D /* difficultySelectPageLevelButton1.png */; };
+		CBF3347615842FCF0007049D /* difficultySelectPageLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344415842FCD0007049D /* difficultySelectPageLogo1.png */; };
+		CBF3347715842FCF0007049D /* landingPageBackGround1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344615842FCD0007049D /* landingPageBackGround1.png */; };
+		CBF3347815842FCF0007049D /* landingPageCharacter1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344715842FCD0007049D /* landingPageCharacter1.png */; };
+		CBF3347915842FCF0007049D /* landingPageLearnButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344815842FCD0007049D /* landingPageLearnButton1.png */; };
+		CBF3347A15842FCF0007049D /* landingPageLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344915842FCD0007049D /* landingPageLogo1.png */; };
+		CBF3347B15842FCF0007049D /* landingPagePlayButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344A15842FCD0007049D /* landingPagePlayButton1.png */; };
+		CBF3347C15842FCF0007049D /* mainGameSceenBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344C15842FCD0007049D /* mainGameSceenBackground1.png */; };
+		CBF3347D15842FCF0007049D /* mainGameSceenCharacter1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344D15842FCD0007049D /* mainGameSceenCharacter1.png */; };
+		CBF3347E15842FCF0007049D /* mainGameSceenCommentBubble1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344E15842FCD0007049D /* mainGameSceenCommentBubble1.png */; };
+		CBF3347F15842FCF0007049D /* mainGameSceenHintBubble1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3344F15842FCD0007049D /* mainGameSceenHintBubble1.png */; };
+		CBF3348015842FCF0007049D /* mainGameSceenLevel1Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345015842FCD0007049D /* mainGameSceenLevel1Button1.png */; };
+		CBF3348115842FCF0007049D /* mainGameSceenLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345115842FCD0007049D /* mainGameSceenLogo1.png */; };
+		CBF3348215842FCF0007049D /* mainGameSceenRecycleBin1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345215842FCD0007049D /* mainGameSceenRecycleBin1.png */; };
+		CBF3348315842FCF0007049D /* tryAgainBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345415842FCE0007049D /* tryAgainBackground1.png */; };
+		CBF3348415842FCF0007049D /* tryAgainCharacter1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345515842FCE0007049D /* tryAgainCharacter1.png */; };
+		CBF3348515842FCF0007049D /* tryAgainLearnButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345615842FCE0007049D /* tryAgainLearnButton1.png */; };
+		CBF3348615842FCF0007049D /* tryAgainLogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345715842FCE0007049D /* tryAgainLogo1.png */; };
+		CBF3348715842FCF0007049D /* tryAgainNextButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345815842FCE0007049D /* tryAgainNextButton1.png */; };
+		CBF3348815842FCF0007049D /* tryAgainText1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345915842FCE0007049D /* tryAgainText1.png */; };
+		CBF3348915842FCF0007049D /* HangMan.psd in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345B15842FCF0007049D /* HangMan.psd */; };
+		CBF3348A15842FCF0007049D /* HangManClip1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345D15842FCF0007049D /* HangManClip1.png */; };
+		CBF3348B15842FCF0007049D /* HangManClip2.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345E15842FCF0007049D /* HangManClip2.png */; };
+		CBF3348C15842FCF0007049D /* HangManClip3.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3345F15842FCF0007049D /* HangManClip3.png */; };
+		CBF3348D15842FCF0007049D /* HangManClip4.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3346015842FCF0007049D /* HangManClip4.png */; };
+		CBF3348E15842FCF0007049D /* HangManIdele.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3346115842FCF0007049D /* HangManIdele.png */; };
+		CBF3348F15842FCF0007049D /* HangManShirt.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3346215842FCF0007049D /* HangManShirt.png */; };
+		CBF3349015842FCF0007049D /* Shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3346315842FCF0007049D /* Shirt.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB25DFEB1583B7EB00AF371A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB25DFB91583B7EB00AF371A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB25DFC11583B7EB00AF371A;
+			remoteInfo = "The Learning Man";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB25DFC21583B7EB00AF371A /* The Learning Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Learning Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25DFC61583B7EB00AF371A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB25DFC81583B7EB00AF371A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB25DFCA1583B7EB00AF371A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB25DFCE1583B7EB00AF371A /* The Learning Man-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Learning Man-Info.plist"; sourceTree = "<group>"; };
+		CB25DFD01583B7EB00AF371A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB25DFD21583B7EB00AF371A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB25DFD41583B7EB00AF371A /* The Learning Man-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Learning Man-Prefix.pch"; sourceTree = "<group>"; };
+		CB25DFD51583B7EB00AF371A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB25DFD61583B7EB00AF371A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB25DFE61583B7EB00AF371A /* The Learning ManTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Learning ManTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25DFE71583B7EB00AF371A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB25DFEF1583B7EB00AF371A /* The Learning ManTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Learning ManTests-Info.plist"; sourceTree = "<group>"; };
+		CB25DFF11583B7EB00AF371A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB25DFF31583B7EB00AF371A /* The_Learning_ManTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = The_Learning_ManTests.h; sourceTree = "<group>"; };
+		CB25DFF41583B7EB00AF371A /* The_Learning_ManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Learning_ManTests.m; sourceTree = "<group>"; };
+		CB25E0031583BCC500AF371A /* LandingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingPageViewController.h; sourceTree = "<group>"; };
+		CB25E0041583BCC500AF371A /* LandingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingPageViewController.m; sourceTree = "<group>"; };
+		CB25E0051583BCC500AF371A /* LandingPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingPageViewController.xib; sourceTree = "<group>"; };
+		CB25E00A1583BE7300AF371A /* LearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
+		CB25E00B1583BE7300AF371A /* LearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnViewController.m; sourceTree = "<group>"; };
+		CB25E00C1583BE7300AF371A /* LearnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnViewController.xib; sourceTree = "<group>"; };
+		CB25E0101583BF7400AF371A /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		CB25E0111583BF7400AF371A /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		CB25E0121583BF7400AF371A /* SelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionViewController.xib; sourceTree = "<group>"; };
+		CB25E0161583C74C00AF371A /* GamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayViewController.h; sourceTree = "<group>"; };
+		CB25E0171583C74C00AF371A /* GamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayViewController.m; sourceTree = "<group>"; };
+		CB25E0181583C74C00AF371A /* GamePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamePlayViewController.xib; sourceTree = "<group>"; };
+		CB25E01C1583CE2200AF371A /* HintPopOverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintPopOverController.h; sourceTree = "<group>"; };
+		CB25E01D1583CE2200AF371A /* HintPopOverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintPopOverController.m; sourceTree = "<group>"; };
+		CB25E01E1583CE2200AF371A /* HintPopOverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HintPopOverController.xib; sourceTree = "<group>"; };
+		CB25E0211583ED9C00AF371A /* AvatarSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarSelectionController.h; sourceTree = "<group>"; };
+		CB25E0221583ED9C00AF371A /* AvatarSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarSelectionController.m; sourceTree = "<group>"; };
+		CB25E0231583ED9C00AF371A /* AvatarSelectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvatarSelectionController.xib; sourceTree = "<group>"; };
+		CBF33419158402950007049D /* wordBox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordBox1.png; sourceTree = "<group>"; };
+		CBF3341B15840B470007049D /* TrashPopOverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrashPopOverController.h; sourceTree = "<group>"; };
+		CBF3341C15840B470007049D /* TrashPopOverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrashPopOverController.m; sourceTree = "<group>"; };
+		CBF3341D15840B480007049D /* TrashPopOverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrashPopOverController.xib; sourceTree = "<group>"; };
+		CBF3342115842F5F0007049D /* HangManClip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip1.png; sourceTree = "<group>"; };
+		CBF3342215842F5F0007049D /* HangManClip2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip2.png; sourceTree = "<group>"; };
+		CBF3342315842F5F0007049D /* HangManClip3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip3.png; sourceTree = "<group>"; };
+		CBF3342415842F5F0007049D /* HangManClip4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip4.png; sourceTree = "<group>"; };
+		CBF3342515842F5F0007049D /* HangManIdele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManIdele.png; sourceTree = "<group>"; };
+		CBF3342615842F5F0007049D /* HangManShirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManShirt.png; sourceTree = "<group>"; };
+		CBF3342715842F5F0007049D /* Shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shirt.png; sourceTree = "<group>"; };
+		CBF3343015842FCC0007049D /* bravoScreenBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenBackground1.png; sourceTree = "<group>"; };
+		CBF3343115842FCC0007049D /* bravoScreenBalloons1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenBalloons1.png; sourceTree = "<group>"; };
+		CBF3343215842FCC0007049D /* bravoScreenBravoText1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenBravoText1.png; sourceTree = "<group>"; };
+		CBF3343315842FCC0007049D /* bravoScreenCharacter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenCharacter1.png; sourceTree = "<group>"; };
+		CBF3343415842FCC0007049D /* bravoScreenLearnButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenLearnButton1.png; sourceTree = "<group>"; };
+		CBF3343515842FCC0007049D /* bravoScreenLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenLogo1.png; sourceTree = "<group>"; };
+		CBF3343615842FCC0007049D /* bravoScreenNextButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravoScreenNextButton1.png; sourceTree = "<group>"; };
+		CBF3343815842FCC0007049D /* dictionaryPageBackButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dictionaryPageBackButton1.png; sourceTree = "<group>"; };
+		CBF3343915842FCC0007049D /* dictionaryPageBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dictionaryPageBackground1.png; sourceTree = "<group>"; };
+		CBF3343A15842FCC0007049D /* dictionaryPageLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dictionaryPageLogo1.png; sourceTree = "<group>"; };
+		CBF3343B15842FCC0007049D /* dictionaryPageWordBox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dictionaryPageWordBox1.png; sourceTree = "<group>"; };
+		CBF3343C15842FCC0007049D /* dictionaryPageWordListLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dictionaryPageWordListLogo1.png; sourceTree = "<group>"; };
+		CBF3343E15842FCD0007049D /* difficultySelectPageBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageBackground1.png; sourceTree = "<group>"; };
+		CBF3343F15842FCD0007049D /* difficultySelectPageLearnButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageLearnButton1.png; sourceTree = "<group>"; };
+		CBF3344015842FCD0007049D /* difficultySelectPageLevel1Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageLevel1Button1.png; sourceTree = "<group>"; };
+		CBF3344115842FCD0007049D /* difficultySelectPageLevel2Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageLevel2Button1.png; sourceTree = "<group>"; };
+		CBF3344215842FCD0007049D /* difficultySelectPageLevel3Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageLevel3Button1.png; sourceTree = "<group>"; };
+		CBF3344315842FCD0007049D /* difficultySelectPageLevelButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageLevelButton1.png; sourceTree = "<group>"; };
+		CBF3344415842FCD0007049D /* difficultySelectPageLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultySelectPageLogo1.png; sourceTree = "<group>"; };
+		CBF3344615842FCD0007049D /* landingPageBackGround1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landingPageBackGround1.png; sourceTree = "<group>"; };
+		CBF3344715842FCD0007049D /* landingPageCharacter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landingPageCharacter1.png; sourceTree = "<group>"; };
+		CBF3344815842FCD0007049D /* landingPageLearnButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landingPageLearnButton1.png; sourceTree = "<group>"; };
+		CBF3344915842FCD0007049D /* landingPageLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landingPageLogo1.png; sourceTree = "<group>"; };
+		CBF3344A15842FCD0007049D /* landingPagePlayButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landingPagePlayButton1.png; sourceTree = "<group>"; };
+		CBF3344C15842FCD0007049D /* mainGameSceenBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenBackground1.png; sourceTree = "<group>"; };
+		CBF3344D15842FCD0007049D /* mainGameSceenCharacter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenCharacter1.png; sourceTree = "<group>"; };
+		CBF3344E15842FCD0007049D /* mainGameSceenCommentBubble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenCommentBubble1.png; sourceTree = "<group>"; };
+		CBF3344F15842FCD0007049D /* mainGameSceenHintBubble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenHintBubble1.png; sourceTree = "<group>"; };
+		CBF3345015842FCD0007049D /* mainGameSceenLevel1Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenLevel1Button1.png; sourceTree = "<group>"; };
+		CBF3345115842FCD0007049D /* mainGameSceenLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenLogo1.png; sourceTree = "<group>"; };
+		CBF3345215842FCD0007049D /* mainGameSceenRecycleBin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainGameSceenRecycleBin1.png; sourceTree = "<group>"; };
+		CBF3345415842FCE0007049D /* tryAgainBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tryAgainBackground1.png; sourceTree = "<group>"; };
+		CBF3345515842FCE0007049D /* tryAgainCharacter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tryAgainCharacter1.png; sourceTree = "<group>"; };
+		CBF3345615842FCE0007049D /* tryAgainLearnButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tryAgainLearnButton1.png; sourceTree = "<group>"; };
+		CBF3345715842FCE0007049D /* tryAgainLogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tryAgainLogo1.png; sourceTree = "<group>"; };
+		CBF3345815842FCE0007049D /* tryAgainNextButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tryAgainNextButton1.png; sourceTree = "<group>"; };
+		CBF3345915842FCE0007049D /* tryAgainText1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tryAgainText1.png; sourceTree = "<group>"; };
+		CBF3345B15842FCF0007049D /* HangMan.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = HangMan.psd; sourceTree = "<group>"; };
+		CBF3345D15842FCF0007049D /* HangManClip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip1.png; sourceTree = "<group>"; };
+		CBF3345E15842FCF0007049D /* HangManClip2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip2.png; sourceTree = "<group>"; };
+		CBF3345F15842FCF0007049D /* HangManClip3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip3.png; sourceTree = "<group>"; };
+		CBF3346015842FCF0007049D /* HangManClip4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManClip4.png; sourceTree = "<group>"; };
+		CBF3346115842FCF0007049D /* HangManIdele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManIdele.png; sourceTree = "<group>"; };
+		CBF3346215842FCF0007049D /* HangManShirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HangManShirt.png; sourceTree = "<group>"; };
+		CBF3346315842FCF0007049D /* Shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shirt.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB25DFBF1583B7EB00AF371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25DFC71583B7EB00AF371A /* UIKit.framework in Frameworks */,
+				CB25DFC91583B7EB00AF371A /* Foundation.framework in Frameworks */,
+				CB25DFCB1583B7EB00AF371A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25DFE21583B7EB00AF371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25DFE81583B7EB00AF371A /* SenTestingKit.framework in Frameworks */,
+				CB25DFE91583B7EB00AF371A /* UIKit.framework in Frameworks */,
+				CB25DFEA1583B7EB00AF371A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB25DFB71583B7EB00AF371A = {
+			isa = PBXGroup;
+			children = (
+				CB25DFCC1583B7EB00AF371A /* The Learning Man */,
+				CB25DFED1583B7EB00AF371A /* The Learning ManTests */,
+				CB25DFC51583B7EB00AF371A /* Frameworks */,
+				CB25DFC31583B7EB00AF371A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB25DFC31583B7EB00AF371A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB25DFC21583B7EB00AF371A /* The Learning Man.app */,
+				CB25DFE61583B7EB00AF371A /* The Learning ManTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB25DFC51583B7EB00AF371A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB25DFC61583B7EB00AF371A /* UIKit.framework */,
+				CB25DFC81583B7EB00AF371A /* Foundation.framework */,
+				CB25DFCA1583B7EB00AF371A /* CoreGraphics.framework */,
+				CB25DFE71583B7EB00AF371A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB25DFCC1583B7EB00AF371A /* The Learning Man */ = {
+			isa = PBXGroup;
+			children = (
+				CB25DFD51583B7EB00AF371A /* AppDelegate.h */,
+				CB25DFD61583B7EB00AF371A /* AppDelegate.m */,
+				CB25E01B1583CDF000AF371A /* Pop Over Controllers */,
+				CB25E0151583C73000AF371A /* Game Play */,
+				CB25E00F1583BF3F00AF371A /* Selection Controller */,
+				CB25E0091583BE4F00AF371A /* Learn Controller */,
+				CB25E0081583BCEE00AF371A /* LandingPage */,
+				CB25E0031583BCC500AF371A /* LandingPageViewController.h */,
+				CB25E0041583BCC500AF371A /* LandingPageViewController.m */,
+				CB25E0051583BCC500AF371A /* LandingPageViewController.xib */,
+				CB25DFCD1583B7EB00AF371A /* Supporting Files */,
+			);
+			path = "The Learning Man";
+			sourceTree = "<group>";
+		};
+		CB25DFCD1583B7EB00AF371A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF334171584024B0007049D /* Images */,
+				CB25DFCE1583B7EB00AF371A /* The Learning Man-Info.plist */,
+				CB25DFCF1583B7EB00AF371A /* InfoPlist.strings */,
+				CB25DFD21583B7EB00AF371A /* main.m */,
+				CB25DFD41583B7EB00AF371A /* The Learning Man-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB25DFED1583B7EB00AF371A /* The Learning ManTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB25DFF31583B7EB00AF371A /* The_Learning_ManTests.h */,
+				CB25DFF41583B7EB00AF371A /* The_Learning_ManTests.m */,
+				CB25DFEE1583B7EB00AF371A /* Supporting Files */,
+			);
+			path = "The Learning ManTests";
+			sourceTree = "<group>";
+		};
+		CB25DFEE1583B7EB00AF371A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB25DFEF1583B7EB00AF371A /* The Learning ManTests-Info.plist */,
+				CB25DFF01583B7EB00AF371A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB25E0081583BCEE00AF371A /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LandingPage;
+			sourceTree = "<group>";
+		};
+		CB25E0091583BE4F00AF371A /* Learn Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB25E00A1583BE7300AF371A /* LearnViewController.h */,
+				CB25E00B1583BE7300AF371A /* LearnViewController.m */,
+				CB25E00C1583BE7300AF371A /* LearnViewController.xib */,
+			);
+			name = "Learn Controller";
+			sourceTree = "<group>";
+		};
+		CB25E00F1583BF3F00AF371A /* Selection Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB25E0101583BF7400AF371A /* SelectionViewController.h */,
+				CB25E0111583BF7400AF371A /* SelectionViewController.m */,
+				CB25E0121583BF7400AF371A /* SelectionViewController.xib */,
+				CB25E0211583ED9C00AF371A /* AvatarSelectionController.h */,
+				CB25E0221583ED9C00AF371A /* AvatarSelectionController.m */,
+				CB25E0231583ED9C00AF371A /* AvatarSelectionController.xib */,
+			);
+			name = "Selection Controller";
+			sourceTree = "<group>";
+		};
+		CB25E0151583C73000AF371A /* Game Play */ = {
+			isa = PBXGroup;
+			children = (
+				CB25E0161583C74C00AF371A /* GamePlayViewController.h */,
+				CB25E0171583C74C00AF371A /* GamePlayViewController.m */,
+				CB25E0181583C74C00AF371A /* GamePlayViewController.xib */,
+			);
+			name = "Game Play";
+			sourceTree = "<group>";
+		};
+		CB25E01B1583CDF000AF371A /* Pop Over Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB25E01C1583CE2200AF371A /* HintPopOverController.h */,
+				CB25E01D1583CE2200AF371A /* HintPopOverController.m */,
+				CB25E01E1583CE2200AF371A /* HintPopOverController.xib */,
+				CBF3341B15840B470007049D /* TrashPopOverController.h */,
+				CBF3341C15840B470007049D /* TrashPopOverController.m */,
+				CBF3341D15840B480007049D /* TrashPopOverController.xib */,
+			);
+			name = "Pop Over Controllers";
+			sourceTree = "<group>";
+		};
+		CBF334171584024B0007049D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3342F15842FCC0007049D /* Bravo Screen PNG's */,
+				CBF3343715842FCC0007049D /* Dictionary Page PNG's */,
+				CBF3343D15842FCC0007049D /* Difficulty Page PNG's */,
+				CBF3344515842FCD0007049D /* Landing Page PNG's */,
+				CBF3344B15842FCD0007049D /* Main Game Screen PNG's */,
+				CBF3345315842FCD0007049D /* Try Again PNG's */,
+				CBF3345A15842FCE0007049D /* HangMan */,
+				CBF3342015842F5F0007049D /* Scene */,
+				CBF33419158402950007049D /* wordBox1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CBF3342015842F5F0007049D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3342115842F5F0007049D /* HangManClip1.png */,
+				CBF3342215842F5F0007049D /* HangManClip2.png */,
+				CBF3342315842F5F0007049D /* HangManClip3.png */,
+				CBF3342415842F5F0007049D /* HangManClip4.png */,
+				CBF3342515842F5F0007049D /* HangManIdele.png */,
+				CBF3342615842F5F0007049D /* HangManShirt.png */,
+				CBF3342715842F5F0007049D /* Shirt.png */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CBF3342F15842FCC0007049D /* Bravo Screen PNG's */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3343015842FCC0007049D /* bravoScreenBackground1.png */,
+				CBF3343115842FCC0007049D /* bravoScreenBalloons1.png */,
+				CBF3343215842FCC0007049D /* bravoScreenBravoText1.png */,
+				CBF3343315842FCC0007049D /* bravoScreenCharacter1.png */,
+				CBF3343415842FCC0007049D /* bravoScreenLearnButton1.png */,
+				CBF3343515842FCC0007049D /* bravoScreenLogo1.png */,
+				CBF3343615842FCC0007049D /* bravoScreenNextButton1.png */,
+			);
+			path = "Bravo Screen PNG's";
+			sourceTree = "<group>";
+		};
+		CBF3343715842FCC0007049D /* Dictionary Page PNG's */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3343815842FCC0007049D /* dictionaryPageBackButton1.png */,
+				CBF3343915842FCC0007049D /* dictionaryPageBackground1.png */,
+				CBF3343A15842FCC0007049D /* dictionaryPageLogo1.png */,
+				CBF3343B15842FCC0007049D /* dictionaryPageWordBox1.png */,
+				CBF3343C15842FCC0007049D /* dictionaryPageWordListLogo1.png */,
+			);
+			path = "Dictionary Page PNG's";
+			sourceTree = "<group>";
+		};
+		CBF3343D15842FCC0007049D /* Difficulty Page PNG's */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3343E15842FCD0007049D /* difficultySelectPageBackground1.png */,
+				CBF3343F15842FCD0007049D /* difficultySelectPageLearnButton1.png */,
+				CBF3344015842FCD0007049D /* difficultySelectPageLevel1Button1.png */,
+				CBF3344115842FCD0007049D /* difficultySelectPageLevel2Button1.png */,
+				CBF3344215842FCD0007049D /* difficultySelectPageLevel3Button1.png */,
+				CBF3344315842FCD0007049D /* difficultySelectPageLevelButton1.png */,
+				CBF3344415842FCD0007049D /* difficultySelectPageLogo1.png */,
+			);
+			path = "Difficulty Page PNG's";
+			sourceTree = "<group>";
+		};
+		CBF3344515842FCD0007049D /* Landing Page PNG's */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3344615842FCD0007049D /* landingPageBackGround1.png */,
+				CBF3344715842FCD0007049D /* landingPageCharacter1.png */,
+				CBF3344815842FCD0007049D /* landingPageLearnButton1.png */,
+				CBF3344915842FCD0007049D /* landingPageLogo1.png */,
+				CBF3344A15842FCD0007049D /* landingPagePlayButton1.png */,
+			);
+			path = "Landing Page PNG's";
+			sourceTree = "<group>";
+		};
+		CBF3344B15842FCD0007049D /* Main Game Screen PNG's */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3344C15842FCD0007049D /* mainGameSceenBackground1.png */,
+				CBF3344D15842FCD0007049D /* mainGameSceenCharacter1.png */,
+				CBF3344E15842FCD0007049D /* mainGameSceenCommentBubble1.png */,
+				CBF3344F15842FCD0007049D /* mainGameSceenHintBubble1.png */,
+				CBF3345015842FCD0007049D /* mainGameSceenLevel1Button1.png */,
+				CBF3345115842FCD0007049D /* mainGameSceenLogo1.png */,
+				CBF3345215842FCD0007049D /* mainGameSceenRecycleBin1.png */,
+			);
+			path = "Main Game Screen PNG's";
+			sourceTree = "<group>";
+		};
+		CBF3345315842FCD0007049D /* Try Again PNG's */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3345415842FCE0007049D /* tryAgainBackground1.png */,
+				CBF3345515842FCE0007049D /* tryAgainCharacter1.png */,
+				CBF3345615842FCE0007049D /* tryAgainLearnButton1.png */,
+				CBF3345715842FCE0007049D /* tryAgainLogo1.png */,
+				CBF3345815842FCE0007049D /* tryAgainNextButton1.png */,
+				CBF3345915842FCE0007049D /* tryAgainText1.png */,
+			);
+			path = "Try Again PNG's";
+			sourceTree = "<group>";
+		};
+		CBF3345A15842FCE0007049D /* HangMan */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3345B15842FCF0007049D /* HangMan.psd */,
+				CBF3345C15842FCF0007049D /* Scene */,
+			);
+			path = HangMan;
+			sourceTree = "<group>";
+		};
+		CBF3345C15842FCF0007049D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3345D15842FCF0007049D /* HangManClip1.png */,
+				CBF3345E15842FCF0007049D /* HangManClip2.png */,
+				CBF3345F15842FCF0007049D /* HangManClip3.png */,
+				CBF3346015842FCF0007049D /* HangManClip4.png */,
+				CBF3346115842FCF0007049D /* HangManIdele.png */,
+				CBF3346215842FCF0007049D /* HangManShirt.png */,
+				CBF3346315842FCF0007049D /* Shirt.png */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB25DFC11583B7EB00AF371A /* The Learning Man */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB25DFF81583B7EB00AF371A /* Build configuration list for PBXNativeTarget "The Learning Man" */;
+			buildPhases = (
+				CB25DFBE1583B7EB00AF371A /* Sources */,
+				CB25DFBF1583B7EB00AF371A /* Frameworks */,
+				CB25DFC01583B7EB00AF371A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Learning Man";
+			productName = "The Learning Man";
+			productReference = CB25DFC21583B7EB00AF371A /* The Learning Man.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB25DFE51583B7EB00AF371A /* The Learning ManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB25DFFB1583B7EB00AF371A /* Build configuration list for PBXNativeTarget "The Learning ManTests" */;
+			buildPhases = (
+				CB25DFE11583B7EB00AF371A /* Sources */,
+				CB25DFE21583B7EB00AF371A /* Frameworks */,
+				CB25DFE31583B7EB00AF371A /* Resources */,
+				CB25DFE41583B7EB00AF371A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB25DFEC1583B7EB00AF371A /* PBXTargetDependency */,
+			);
+			name = "The Learning ManTests";
+			productName = "The Learning ManTests";
+			productReference = CB25DFE61583B7EB00AF371A /* The Learning ManTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB25DFB91583B7EB00AF371A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = _dNESH_04028g_;
+			};
+			buildConfigurationList = CB25DFBC1583B7EB00AF371A /* Build configuration list for PBXProject "The Learning Man" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB25DFB71583B7EB00AF371A;
+			productRefGroup = CB25DFC31583B7EB00AF371A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB25DFC11583B7EB00AF371A /* The Learning Man */,
+				CB25DFE51583B7EB00AF371A /* The Learning ManTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB25DFC01583B7EB00AF371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25DFD11583B7EB00AF371A /* InfoPlist.strings in Resources */,
+				CB25E0071583BCC500AF371A /* LandingPageViewController.xib in Resources */,
+				CB25E00E1583BE7300AF371A /* LearnViewController.xib in Resources */,
+				CB25E0141583BF7400AF371A /* SelectionViewController.xib in Resources */,
+				CB25E01A1583C74C00AF371A /* GamePlayViewController.xib in Resources */,
+				CB25E0201583CE2200AF371A /* HintPopOverController.xib in Resources */,
+				CB25E0251583ED9C00AF371A /* AvatarSelectionController.xib in Resources */,
+				CBF3341A158402950007049D /* wordBox1.png in Resources */,
+				CBF3341F15840B480007049D /* TrashPopOverController.xib in Resources */,
+				CBF3342815842F5F0007049D /* HangManClip1.png in Resources */,
+				CBF3342915842F5F0007049D /* HangManClip2.png in Resources */,
+				CBF3342A15842F5F0007049D /* HangManClip3.png in Resources */,
+				CBF3342B15842F5F0007049D /* HangManClip4.png in Resources */,
+				CBF3342C15842F5F0007049D /* HangManIdele.png in Resources */,
+				CBF3342D15842F5F0007049D /* HangManShirt.png in Resources */,
+				CBF3342E15842F5F0007049D /* Shirt.png in Resources */,
+				CBF3346415842FCF0007049D /* bravoScreenBackground1.png in Resources */,
+				CBF3346515842FCF0007049D /* bravoScreenBalloons1.png in Resources */,
+				CBF3346615842FCF0007049D /* bravoScreenBravoText1.png in Resources */,
+				CBF3346715842FCF0007049D /* bravoScreenCharacter1.png in Resources */,
+				CBF3346815842FCF0007049D /* bravoScreenLearnButton1.png in Resources */,
+				CBF3346915842FCF0007049D /* bravoScreenLogo1.png in Resources */,
+				CBF3346A15842FCF0007049D /* bravoScreenNextButton1.png in Resources */,
+				CBF3346B15842FCF0007049D /* dictionaryPageBackButton1.png in Resources */,
+				CBF3346C15842FCF0007049D /* dictionaryPageBackground1.png in Resources */,
+				CBF3346D15842FCF0007049D /* dictionaryPageLogo1.png in Resources */,
+				CBF3346E15842FCF0007049D /* dictionaryPageWordBox1.png in Resources */,
+				CBF3346F15842FCF0007049D /* dictionaryPageWordListLogo1.png in Resources */,
+				CBF3347015842FCF0007049D /* difficultySelectPageBackground1.png in Resources */,
+				CBF3347115842FCF0007049D /* difficultySelectPageLearnButton1.png in Resources */,
+				CBF3347215842FCF0007049D /* difficultySelectPageLevel1Button1.png in Resources */,
+				CBF3347315842FCF0007049D /* difficultySelectPageLevel2Button1.png in Resources */,
+				CBF3347415842FCF0007049D /* difficultySelectPageLevel3Button1.png in Resources */,
+				CBF3347515842FCF0007049D /* difficultySelectPageLevelButton1.png in Resources */,
+				CBF3347615842FCF0007049D /* difficultySelectPageLogo1.png in Resources */,
+				CBF3347715842FCF0007049D /* landingPageBackGround1.png in Resources */,
+				CBF3347815842FCF0007049D /* landingPageCharacter1.png in Resources */,
+				CBF3347915842FCF0007049D /* landingPageLearnButton1.png in Resources */,
+				CBF3347A15842FCF0007049D /* landingPageLogo1.png in Resources */,
+				CBF3347B15842FCF0007049D /* landingPagePlayButton1.png in Resources */,
+				CBF3347C15842FCF0007049D /* mainGameSceenBackground1.png in Resources */,
+				CBF3347D15842FCF0007049D /* mainGameSceenCharacter1.png in Resources */,
+				CBF3347E15842FCF0007049D /* mainGameSceenCommentBubble1.png in Resources */,
+				CBF3347F15842FCF0007049D /* mainGameSceenHintBubble1.png in Resources */,
+				CBF3348015842FCF0007049D /* mainGameSceenLevel1Button1.png in Resources */,
+				CBF3348115842FCF0007049D /* mainGameSceenLogo1.png in Resources */,
+				CBF3348215842FCF0007049D /* mainGameSceenRecycleBin1.png in Resources */,
+				CBF3348315842FCF0007049D /* tryAgainBackground1.png in Resources */,
+				CBF3348415842FCF0007049D /* tryAgainCharacter1.png in Resources */,
+				CBF3348515842FCF0007049D /* tryAgainLearnButton1.png in Resources */,
+				CBF3348615842FCF0007049D /* tryAgainLogo1.png in Resources */,
+				CBF3348715842FCF0007049D /* tryAgainNextButton1.png in Resources */,
+				CBF3348815842FCF0007049D /* tryAgainText1.png in Resources */,
+				CBF3348915842FCF0007049D /* HangMan.psd in Resources */,
+				CBF3348A15842FCF0007049D /* HangManClip1.png in Resources */,
+				CBF3348B15842FCF0007049D /* HangManClip2.png in Resources */,
+				CBF3348C15842FCF0007049D /* HangManClip3.png in Resources */,
+				CBF3348D15842FCF0007049D /* HangManClip4.png in Resources */,
+				CBF3348E15842FCF0007049D /* HangManIdele.png in Resources */,
+				CBF3348F15842FCF0007049D /* HangManShirt.png in Resources */,
+				CBF3349015842FCF0007049D /* Shirt.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25DFE31583B7EB00AF371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25DFF21583B7EB00AF371A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB25DFE41583B7EB00AF371A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB25DFBE1583B7EB00AF371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25DFD31583B7EB00AF371A /* main.m in Sources */,
+				CB25DFD71583B7EB00AF371A /* AppDelegate.m in Sources */,
+				CB25E0061583BCC500AF371A /* LandingPageViewController.m in Sources */,
+				CB25E00D1583BE7300AF371A /* LearnViewController.m in Sources */,
+				CB25E0131583BF7400AF371A /* SelectionViewController.m in Sources */,
+				CB25E0191583C74C00AF371A /* GamePlayViewController.m in Sources */,
+				CB25E01F1583CE2200AF371A /* HintPopOverController.m in Sources */,
+				CB25E0241583ED9C00AF371A /* AvatarSelectionController.m in Sources */,
+				CBF3341E15840B480007049D /* TrashPopOverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25DFE11583B7EB00AF371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25DFF51583B7EB00AF371A /* The_Learning_ManTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB25DFEC1583B7EB00AF371A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB25DFC11583B7EB00AF371A /* The Learning Man */;
+			targetProxy = CB25DFEB1583B7EB00AF371A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB25DFCF1583B7EB00AF371A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB25DFD01583B7EB00AF371A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB25DFF01583B7EB00AF371A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB25DFF11583B7EB00AF371A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB25DFF61583B7EB00AF371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB25DFF71583B7EB00AF371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dinesh Garg (7K36WQZX49)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41381D75-B770-42B1-868E-90AB30C61185";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB25DFF91583B7EB00AF371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Learning Man/The Learning Man-Prefix.pch";
+				INFOPLIST_FILE = "The Learning Man/The Learning Man-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB25DFFA1583B7EB00AF371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Learning Man/The Learning Man-Prefix.pch";
+				INFOPLIST_FILE = "The Learning Man/The Learning Man-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB25DFFC1583B7EB00AF371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Learning Man.app/The Learning Man";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Learning Man/The Learning Man-Prefix.pch";
+				INFOPLIST_FILE = "The Learning ManTests/The Learning ManTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CB25DFFD1583B7EB00AF371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Learning Man.app/The Learning Man";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Learning Man/The Learning Man-Prefix.pch";
+				INFOPLIST_FILE = "The Learning ManTests/The Learning ManTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB25DFBC1583B7EB00AF371A /* Build configuration list for PBXProject "The Learning Man" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25DFF61583B7EB00AF371A /* Debug */,
+				CB25DFF71583B7EB00AF371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB25DFF81583B7EB00AF371A /* Build configuration list for PBXNativeTarget "The Learning Man" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25DFF91583B7EB00AF371A /* Debug */,
+				CB25DFFA1583B7EB00AF371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB25DFFB1583B7EB00AF371A /* Build configuration list for PBXNativeTarget "The Learning ManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25DFFC1583B7EB00AF371A /* Debug */,
+				CB25DFFD1583B7EB00AF371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB25DFB91583B7EB00AF371A /* Project object */;
+}
